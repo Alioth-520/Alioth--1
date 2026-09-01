@@ -270,7 +270,7 @@ notification:
 
     dingtalk:
       webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=a9a3d3ebd95fc9f7109787c3cb2341b40f42402915fe5d866b67114ca7517f38"
-      secret: "SECd917c5ee374f48f4f89bc10be3b99830ff4840166eca5be2e99bc67bb3fe0adc"
+      secret: "SECe1543d59a4bdb15fe627a8e3c9ce99254a1d6b436b64314f6cdb3c2328219e97"
       # 钉钉机器人 webhook URL
 
     wework:
