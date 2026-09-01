@@ -269,8 +269,8 @@ notification:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
     dingtalk:
-      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=a9a3d3ebd95fc9f7109787c3cb2341b40f42402915fe5d866b67114ca7517f38"
-      secret: "SECe1543d59a4bdb15fe627a8e3c9ce99254a1d6b436b64314f6cdb3c2328219e97"
+      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=a9a3d3ebd95fc9f7109787c3cb2341b40f42402915fe5d866b67114ca7517f38" 
+      secret: "SECe1543d59a4bdb15fe627a8e3c9ce99254a1d6b436b64314f6cdb3c2328219e97" 
       # 钉钉机器人 webhook URL
 
     wework:
