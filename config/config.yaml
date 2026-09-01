@@ -111,7 +111,7 @@ platforms:
 # max_age_days: 可选，覆盖全局 freshness_filter.max_age_days
 # ===============================================================
 rss:
-  enabled: true                       # 是否启用 RSS 抓取（true=启用, false=关闭）
+  enabled: false                       # 是否启用 RSS 抓取（true=启用, false=关闭）
 
   # 文章新鲜度过滤（过滤超龄旧文章，避免重复推送）
   # 仅在推送阶段过滤，所有文章仍会存入数据库
@@ -269,7 +269,7 @@ notification:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
     dingtalk:
-      webhook_url: ""                 # 钉钉机器人 webhook URL
+      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=aec631509d48ec5c62fac84f85ebba612e4d69b53bcf52220e80e64c56671792"                 # 钉钉机器人 webhook URL
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
